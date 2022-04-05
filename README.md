@@ -78,3 +78,8 @@ The following figure is a word cloud of all articles in training dataset.
 
 ![image](https://user-images.githubusercontent.com/53236311/161682245-9bda3db6-cd33-459b-ab99-88ee55c2f57d.png)
 
+# Deep Learning Model
+The Sequential model takes the embedded sentence as an input, with shape (256, 300), followed by a Dropout layer with a drop rate of 0.2. The Dropout layer is a regularization technique which randomly sets input units to 0 at each step during training time, which helps prevent overfitting. Next, one Bi-directional Gated Recurrent Unit (Bi-GRU) of 300 cells for each of the forward layer and backward layer. Finally, a Dense layer (fully connected layer) of 300 neurons. At the end, a Dense layer of 10 neurons to represent each article category as an output. Total number of parameters of the model is 1,266,910.
+
+![image](https://user-images.githubusercontent.com/53236311/161683875-4b7afe36-15c4-4cff-b58a-528e83c0e9cd.png)
+
