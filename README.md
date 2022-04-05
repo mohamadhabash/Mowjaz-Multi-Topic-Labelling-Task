@@ -50,6 +50,7 @@ The following figure shows the number of articles in each category. It also show
 
 ### WordCloud
 The following figure is a word cloud of all articles in training dataset.
+
 ![image](https://user-images.githubusercontent.com/53236311/161682245-9bda3db6-cd33-459b-ab99-88ee55c2f57d.png)
 
 
