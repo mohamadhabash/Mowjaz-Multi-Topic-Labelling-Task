@@ -105,4 +105,10 @@ Model is compiled using Adam optimizer with a learning rate of 0.0005, training 
 </table>
 <!-- DivTable.com -->
 
+# Results 
+To measure the accuracy of our model, F1 score is used. It is a good choice to test the model as it conveys the balance between precision and recall. F1 score results for validation set with a 0.3 classification threshold:
+* F1 macro: 0.865
+* F1 micro: 0.861
+* F1 samples: 0.872
 
+Model’s F1-score on the test set is 0.8344 which led to ranking 6th place.
