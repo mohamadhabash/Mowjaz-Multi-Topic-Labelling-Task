@@ -40,3 +40,6 @@ The dataset consists of 9,590 articles split into training,development and testi
 </tbody>
 </table>
 <!-- DivTable.com -->
+
+## Data Visualization
+The following figure shows the number of articles in each category. It also shows that the training dataset distribution is almost perfectly balanced. No actions are needed to make the dataset more balanced. In other words, we do not have to apply an under-sampling or over-sampling method.
