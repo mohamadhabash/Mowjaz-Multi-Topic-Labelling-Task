@@ -44,10 +44,10 @@ The dataset consists of 9,590 articles split into training,development and testi
 ## Data Visualization
 The following figure shows the number of articles in each category. It also shows that the training dataset distribution is almost perfectly balanced. No actions are needed to make the dataset more balanced. In other words, we do not have to apply an under-sampling or over-sampling method.
 
-![image](https://user-images.githubusercontent.com/53236311/161681394-b54e6e05-1119-453d-973a-5637bdb7a6c5.png = 250x250)
+![image](https://user-images.githubusercontent.com/53236311/161681394-b54e6e05-1119-453d-973a-5637bdb7a6c5.png =250x250)
 
 The following figure is a word cloud of all articles in training dataset.
 
-![image](https://user-images.githubusercontent.com/53236311/161682245-9bda3db6-cd33-459b-ab99-88ee55c2f57d.png  = 250x250)
+![image](https://user-images.githubusercontent.com/53236311/161682245-9bda3db6-cd33-459b-ab99-88ee55c2f57d.png =250x250)
 
 
