@@ -83,3 +83,26 @@ The Sequential model takes the embedded sentence as an input, with shape (256, 3
 
 ![image](https://user-images.githubusercontent.com/53236311/161683875-4b7afe36-15c4-4cff-b58a-528e83c0e9cd.png)
 
+Model is compiled using Adam optimizer with a learning rate of 0.0005, training batch size of 50, 8 epochs and 300 word embedding size as the hyperparameters. Adam optimizer with a learning rate of 0.0005 was proper and slow enough to converge. It was faster and more efficient than other optimizers like SGD, RMSprop, and it achieved better results.
+
+<table>
+<tbody>
+<tr>
+<td><strong>&nbsp;Optimizer</strong></td>
+<td><strong>&nbsp;Learning rate</strong></td>
+<td><strong>Batch size&nbsp;</strong></td>
+<td><strong>&nbsp;Epochs</strong></td>
+<td><strong>&nbsp;Embed. Size</strong></td>
+</tr>
+<tr>
+<td>&nbsp;Adam</td>
+<td>&nbsp;0.0005</td>
+<td>&nbsp;50</td>
+<td>&nbsp;8</td>
+<td>&nbsp;300</td>
+</tr>
+</tbody>
+</table>
+<!-- DivTable.com -->
+
+
