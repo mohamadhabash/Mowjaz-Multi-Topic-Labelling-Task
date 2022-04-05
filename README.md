@@ -41,7 +41,7 @@ The dataset consists of 9,590 articles split into training,development and testi
 </table>
 <!-- DivTable.com -->
 
-## Test Preprocessing
+## Text Preprocessing
 Arabic and English punctuation (including parentheses,underscores, quotes, etc.) are removed from all articles in the training, development, and testing sets. As well as, html tags, web addresses, twitter usernames. For Arabic words, tashkeel and tatweel are stripped using pyarabic [3]. Words of length less than 3, non-Arabic words (English, Unicode, etc.) and numbers are also removed. Arabic stop-words are removed to minimize sequences’ lengths. The preprocessing effect is shown in the following table, which displays a sequence before and after the preprocess.
 
 <table style="width: 356.031px;">
