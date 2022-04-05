@@ -47,6 +47,7 @@ The following figure shows the number of articles in each category. It also show
 ![image](https://user-images.githubusercontent.com/53236311/161681394-b54e6e05-1119-453d-973a-5637bdb7a6c5.png)
 
 The following figure is a word cloud of all articles in training dataset.
-![image](https://user-images.githubusercontent.com/53236311/161682143-6a391d4f-5d3a-4fc4-a2ff-b45435ba06ac.png)
+
+![image](https://user-images.githubusercontent.com/53236311/161682245-9bda3db6-cd33-459b-ab99-88ee55c2f57d.png)
 
 
