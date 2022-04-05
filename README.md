@@ -53,4 +53,27 @@ The following figure is a word cloud of all articles in training dataset.
 
 ![image](https://user-images.githubusercontent.com/53236311/161682245-9bda3db6-cd33-459b-ab99-88ee55c2f57d.png)
 
+# Test Preprocessing
+Arabic and English punctuation (including parentheses,underscores, quotes, etc.) are removed from all articles in the training, development, and testing sets. As well as, html tags, web addresses, twitter usernames. For Arabic words, tashkeel and tatweel are stripped using pyarabic [3]. Words of length less than 3, non-Arabic words (English, Unicode, etc.) and numbers are also removed. Arabic stop-words are removed to minimize sequences’ lengths. The preprocessing effect is shown in the following table, which displays a sequence before and after the preprocess.
 
+<table style="width: 356.031px;">
+<tbody>
+<tr>
+<td style="width: 145px;">&nbsp;</td>
+<td style="width: 210.031px;">&nbsp;Article</td>
+</tr>
+<tr>
+<td style="width: 145px;">&nbsp;Before Preprocessing</td>
+<td style="width: 210.031px;">
+<p>عمان 4 كانون الأول (بترا) -&lt;p&gt;<br />تكون الأجواء اليوم باردة نسبياً<br />وغائمة جزئياً في أغلب المناطق&raquo;<br />ولطيفة الحرارة في الأغوار والبحر<br />وتكون الرياح شمالية غربية<br />السرعة<br /></p>
+</td>
+</tr>
+<tr>
+<td style="width: 145px;">After Preprocessing&nbsp;</td>
+<td style="width: 210.031px;">
+<p>عمان الاول بترا الاجواء بارده نسبيا<br />وغائمه جزئيا اغلب المناطق ولطيفه<br />الحراره الاغوار والبحر الميت وتكون<br />الرياح شماليه السرعة<br /></p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- DivTable.com -->
