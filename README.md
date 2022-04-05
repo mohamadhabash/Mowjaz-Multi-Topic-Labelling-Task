@@ -41,18 +41,6 @@ The dataset consists of 9,590 articles split into training,development and testi
 </table>
 <!-- DivTable.com -->
 
-## Data Visualization
-### Distribution of training dataset
-The following figure shows the number of articles in each category. It also shows that the training dataset distribution is almost perfectly balanced. No actions are needed to make the dataset more balanced. In other words, we do not have to apply an under-sampling or over-sampling method.
-
-![image](https://user-images.githubusercontent.com/53236311/161681394-b54e6e05-1119-453d-973a-5637bdb7a6c5.png)
-
-
-### WordCloud
-The following figure is a word cloud of all articles in training dataset.
-
-![image](https://user-images.githubusercontent.com/53236311/161682245-9bda3db6-cd33-459b-ab99-88ee55c2f57d.png)
-
 ## Test Preprocessing
 Arabic and English punctuation (including parentheses,underscores, quotes, etc.) are removed from all articles in the training, development, and testing sets. As well as, html tags, web addresses, twitter usernames. For Arabic words, tashkeel and tatweel are stripped using pyarabic [3]. Words of length less than 3, non-Arabic words (English, Unicode, etc.) and numbers are also removed. Arabic stop-words are removed to minimize sequences’ lengths. The preprocessing effect is shown in the following table, which displays a sequence before and after the preprocess.
 
@@ -77,3 +65,16 @@ Arabic and English punctuation (including parentheses,underscores, quotes, etc.)
 </tbody>
 </table>
 <!-- DivTable.com -->
+
+## Data Visualization
+### Distribution of training dataset
+The following figure shows the number of articles in each category. It also shows that the training dataset distribution is almost perfectly balanced. No actions are needed to make the dataset more balanced. In other words, we do not have to apply an under-sampling or over-sampling method.
+
+![image](https://user-images.githubusercontent.com/53236311/161681394-b54e6e05-1119-453d-973a-5637bdb7a6c5.png)
+
+
+### WordCloud
+The following figure is a word cloud of all articles in training dataset.
+
+![image](https://user-images.githubusercontent.com/53236311/161682245-9bda3db6-cd33-459b-ab99-88ee55c2f57d.png)
+
